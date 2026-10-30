@@ -1,84 +1,237 @@
-# ENSAK_EVENT
-<<<<<<< HEAD
-we are comming developers community !!!
-=======
-Hello world ! we are comming soon , best developers community!!
->>>>>>> main
-README-----------------------------------------
+<div align="center">
+  <img src="assets/ensak-event-banner.svg" alt="ENSAK_EVENT — Plateforme de gestion des événements" width="100%">
 
-WEB PROJECT  :
-OBJECTIFS : Realisation d'un site web qui gere , controle et affiche  les evenement de L'ecole nationale des siences appliquees a kenitra.
-NOM D'APPLICATION WEB : ENSAK_EVENT
-DANS NOTRE APPLICATION VOUS TROUVE TROIS PROFILS:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <br>
 
-1-PROFIL ADMINISTRATEUR :
+  <p>
+    <img src="https://img.shields.io/badge/Projet-ENSAK__EVENT-2563EB?style=for-the-badge" alt="Projet ENSAK_EVENT">
+    <img src="https://img.shields.io/badge/ENSA-Kénitra-0F766E?style=for-the-badge" alt="ENSA Kénitra">
+    <img src="https://img.shields.io/badge/Statut-Bientôt_disponible-F59E0B?style=for-the-badge" alt="Bientôt disponible">
+  </p>
 
--DASHBORD:qui affiche des statistique sur tous ce qui passser dans l'applicationn Ensak_event
-           EVENT DEMAND - EVENT MODIFY DEMAND - EVENT APPROVED/DEMAND -ORGANIZERS REQUEST - GRAPGH NUMBER OF EVENTS PER MONTHS - POURCENTAGE APROVED/IN PROCESS/TO MODIFY DEMAND - STATICTICS ABOUT THE PROFILS THAT REGISTER IN ALL EVENTS THAT ARE APPROVED 
--DEMANDE D'ORGANISATEUR : LES DEMANDES DES RESPONSABLES DES CLUBS ET DES ENTREPRISE ET LES PROFS QUI VEULLENT ETRE DES ORGANISATEUR DAND NOTRE APPLICATION 
+  <p>
+    <img src="https://img.shields.io/badge/Front--end-HTML_%7C_CSS_%7C_Bootstrap_%7C_JS-E34F26?style=flat-square" alt="Technologies front-end">
+    <img src="https://img.shields.io/badge/Back--end-PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+    <img src="https://img.shields.io/badge/Base_de_données-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+  </p>
 
--ORGANISATEURS QUI ONT CONSULTEE LA PLATFORME EN TANT QUE ORGANISATEUR
+  <h3>Nous arrivons bientôt — la meilleure communauté de développeurs !</h3>
 
--DEMANDE D'ORGANISATIONS DES EVENEMENTS PAR LES ORGANISATEURS QUI SONT DEJA VERIFIEE PAR L'ADMINISTRATION 
+  <p>
+    Une plateforme web pour gérer, contrôler et présenter les événements de
+    <strong>l'École Nationale des Sciences Appliquées de Kénitra</strong>.
+  </p>
 
--DEMANDES DE MODIFICATIONS DES EVENEMENT :LORSQUE LES ORGANISATEUR VEULLES CHANGEE QUELQUE CHOSE A PROPOS DE LA PROMOTION D'EVENEMENT (QUELQUE CHOSE IMPORTANT COMME LA DATE OU LE LIEU QUI DEMANDE L'ACCEPTATION D'ADMINISTRATION)
+  <p>
+    <a href="#-présentation">Présentation</a> •
+    <a href="#-objectifs">Objectifs</a> •
+    <a href="#-profils-utilisateurs">Profils</a> •
+    <a href="#-technologies-et-outils">Technologies</a> •
+    <a href="#-équipe-du-projet">Équipe</a>
+  </p>
+</div>
 
--EVENEMNTS PROGRAMMEES :UNE LISTE DES EVENEMENTS ORGANISEES (LOCAL - DATE - TITRE DETAILE ) AVEC POSSIBILITEES D'APPUYER SUR UN BUTTON  POUR CONSULTEE PLUS DE DETAILLES SUR LES DEMANDES 
+---
 
--CALENDRIER : CALENDREIE QUI AFFICHE TOUS LES EVENT AVEC LEUR PLAGE HORAIRE , LA POSSIBILITEES DE TRIAGE DES EVENEMENTS PAR MONTH - WEEK -DAYS 
+## <img src="assets/icons/overview.svg" width="24" alt=""> Présentation
 
--DECONNEXION : QUI VA DECONNECTRER L'ADMINISTRATEUR DE SSON ESPACE ET LE REDIRIGER VER LA PAGE LOGIN A NOUVEAU .
+**ENSAK_EVENT** est une application web conçue pour centraliser la gestion des événements organisés au sein de l'ENSA Kénitra.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+La plateforme propose deux espaces principaux :
 
-2-PROFIL ORGANISATEUR :
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3><img src="assets/icons/shield-check.svg" width="22" alt=""> Administrateur</h3>
+      <p>Supervision, validation et suivi global de la plateforme.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3><img src="assets/icons/target.svg" width="22" alt=""> Organisateur</h3>
+      <p>Création, suivi et gestion des événements et des participants.</p>
+    </td>
+  </tr>
+</table>
 
--DASHBORD ORG :QUI VA AFFICHER LES STATISTIQUES DE TOUS LES EVENEMNET PROMOTER PAR CE ORGANISATEUR (POURCENTAGE DES PROFILS (CI - CP - MASTER -PROF - OTHERS)
+---
 
--CREER EVENEMENT : L'ORGANISATEUR A LA POSSIBILITEE DE CREER UN EVENEMENT SUR SON ESPACE ORG ET CONTIENT (TITRE -TYPE -DETAIL -DATE DE DEBUT -DATE DE FIN -DEADLINE DE REGISTRATION DES PARTICIPANTS -DETAIL -LOCAL DESCRIPTION ..)
-, CETTE DEMANDE QUI VA ETRE ENVOYER AVEC TOUS SES CHAMPS A L'ADMINSTATEUR POUR QU'IL ACCEPTER OU REFUSER APRES LES EVALUEE  
+## <img src="assets/icons/target.svg" width="24" alt=""> Objectifs
 
--ETAT DES DEMANDES : LA POSSIBLITEE DE CONSULTEES L'ETAT DES DEMANDE D'ORGANISATIONS DES EVENEMENTS 
+La plateforme permet notamment :
 
--PARTICIPANTS: UNE LISTES DES PARTICIPANTS (EMAIL-NOM-PRENOM-PROFIL DU PARTICIPANT QUI PEUT ETRE UN ETUDIANT DE CP OU CI OU MASTER OU PROF QUI PEUT ETRE  REGISTREE PAR CHAQUE EVENEMENTS .
+- de gérer les demandes d'organisation d'événements ;
+- de valider ou de refuser les demandes des organisateurs ;
+- de suivre les demandes de modification ;
+- de consulter les événements programmés ;
+- de gérer les participants ;
+- d'afficher les événements dans un calendrier interactif ;
+- de fournir des statistiques aux administrateurs et aux organisateurs.
 
--CALENDRIER : CALENDREIE QUI AFFICHE TOUS LES EVENT AVEC LEUR PLAGE HORAIRE , LA POSSIBILITEES DE TRIAGE DES EVENEMENTS PAR MONTH - WEEK -DAYS .
+---
 
--DECONNEXION : QUI VA DECONNECTRER L'ORGANISATEUR DE SON ESPACE ET LE REDIRIGER VER LA PAGE LOGIN A NOUVEAU POUR SE RECONNECTER  , ET SI UN RESPONSABLE DE CLUB 
-PAR EXEMPLE N'A PAS DE COMPTE ORGANISATEUR ET VEUX LE CRERR POUR AJOUTER DES EVENEMNT ET CONSULTER LEUR ESPACE ORGANISATEU 
-,IL DOIT APPUYER SUR LA BUTTON  CREATE ACCOUNT POUR ENVOYER UNE DEMANDE D'ETRE ORGANISATEUR A L'ADMINISTRATEUR POUR QU'IL EVALUUE CETTE DEMANDE 
-ET VOIRE SI CETTE UTILISATEUR A SATISFAIT LES CRITERES OBLIGATOIRE POUR ETRE UN ORG CHER ENSAK_EVENTS PLATFORM ..
+## <img src="assets/icons/users.svg" width="24" alt=""> Profils utilisateurs
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<details open>
+<summary><strong><img src="assets/icons/shield-check.svg" width="18" alt=""> 1. Profil Administrateur</strong></summary>
 
-LES OUTILS UTILISER POUR REALISER CE PROJET :
+<br>
 
-UNE EQUIPE COHERENT , COMPETSANTS ET FOR TECHNIQUEMENT DANS L'EXECUTUION ET LA CONCEPTION DES CERTAIN SITUATIONS PROBLEME.
+L'administrateur dispose d'un espace lui permettant de superviser l'ensemble de la plateforme.
 
-NOTRE EQUIPES  genie informatique :
-@Abdelhamid hachimi alloui
-@Omar ignammas
-@Yahya Kaddouri
-@ilyas Lirmaqui 
+### <img src="assets/icons/chart.svg" width="21" alt=""> Tableau de bord
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Le tableau de bord présente des statistiques sur l'activité de l'application :
 
-les programmes utilisee:
+- les demandes de création d'événements ;
+- les demandes de modification d'événements ;
+- les événements et demandes approuvés ;
+- les demandes d'inscription en tant qu'organisateur ;
+- un graphique représentant le nombre d'événements par mois ;
+- la répartition des demandes selon leur statut : **approuvée**, **en cours de traitement** ou **à modifier** ;
+- des statistiques sur les profils des participants inscrits aux événements approuvés.
 
-1-Github :pour la cordination et la bien structuration de notre travail .
+### <img src="assets/icons/clipboard.svg" width="21" alt=""> Demandes d'inscription des organisateurs
 
-2-flowbite : pour prendre des des template des composents (navbars - buttons - cards ) deja existant.
+L'administrateur peut consulter et évaluer les demandes envoyées par les responsables de clubs, les entreprises et les professeurs souhaitant obtenir un compte organisateur sur la plateforme.
 
-3-Html - css(bootstraps) - js : pour le frontend.
+### <img src="assets/icons/user-check.svg" width="21" alt=""> Gestion des organisateurs
 
-4-PHP :pour le backend.
+Une liste permet de consulter les utilisateurs ayant accès à la plateforme en tant qu'organisateurs.
 
-5-drawsql : pour la conception de la base de donnees (realisations des shema conceptuel et relationel - creation des tabes (attribues - cle -contraintes).
+### <img src="assets/icons/clipboard.svg" width="21" alt=""> Demandes d'organisation d'événements
 
-6-PHPmyAdmin : comme interface pour la gestion,controle et l'adaptation de  notre base de donnees Mysql .
+L'administrateur peut examiner les demandes de création d'événements envoyées par les organisateurs préalablement vérifiés par l'administration.
 
-7-000webhost application : pou l'hebergement de  notre application web et la gestion de notre vase de donnees en ligne .
+### <img src="assets/icons/edit.svg" width="21" alt=""> Demandes de modification d'événements
 
+Lorsqu'un organisateur souhaite modifier une information importante liée à la promotion d'un événement, telle que sa date ou son lieu, une demande est envoyée à l'administration pour validation.
 
+### <img src="assets/icons/calendar-check.svg" width="21" alt=""> Événements programmés
 
+L'administrateur peut consulter la liste des événements organisés avec les informations suivantes :
 
+- le lieu ;
+- la date ;
+- le titre ;
+- les détails de l'événement.
+
+Un bouton permet d'afficher davantage d'informations sur chaque demande.
+
+### <img src="assets/icons/calendar.svg" width="21" alt=""> Calendrier
+
+Le calendrier affiche tous les événements ainsi que leurs plages horaires. Il propose plusieurs vues :
+
+- mensuelle ;
+- hebdomadaire ;
+- journalière.
+
+### <img src="assets/icons/log-out.svg" width="21" alt=""> Déconnexion
+
+L'administrateur peut se déconnecter de son espace. Il est ensuite redirigé vers la page de connexion.
+
+</details>
+
+<br>
+
+<details open>
+<summary><strong><img src="assets/icons/target.svg" width="18" alt=""> 2. Profil Organisateur</strong></summary>
+
+<br>
+
+L'organisateur dispose d'un espace dédié à la création, au suivi et à la gestion de ses événements.
+
+### <img src="assets/icons/chart.svg" width="21" alt=""> Tableau de bord
+
+Le tableau de bord affiche des statistiques sur tous les événements proposés par l'organisateur, notamment la répartition des participants selon leur profil :
+
+- Cycle préparatoire (**CP**) ;
+- Cycle ingénieur (**CI**) ;
+- Master ;
+- Professeur ;
+- Autres profils.
+
+### <img src="assets/icons/circle-plus.svg" width="21" alt=""> Création d'un événement
+
+L'organisateur peut soumettre un nouvel événement depuis son espace. Le formulaire contient notamment :
+
+| Informations générales | Planification |
+| --- | --- |
+| Titre | Date de début |
+| Type d'événement | Date de fin |
+| Détails et description | Date limite d'inscription |
+| Lieu | — |
+
+Une fois remplie, la demande est envoyée à l'administrateur, qui peut l'évaluer, l'accepter ou la refuser.
+
+### <img src="assets/icons/search.svg" width="21" alt=""> État des demandes
+
+L'organisateur peut consulter l'état de ses demandes d'organisation d'événements.
+
+### <img src="assets/icons/users.svg" width="21" alt=""> Participants
+
+Pour chaque événement, l'organisateur peut consulter la liste des participants inscrits. Cette liste contient :
+
+- l'adresse e-mail ;
+- le nom ;
+- le prénom ;
+- le profil du participant : étudiant en cycle préparatoire, étudiant en cycle ingénieur, étudiant en master ou professeur.
+
+### <img src="assets/icons/calendar.svg" width="21" alt=""> Calendrier
+
+Le calendrier affiche tous les événements ainsi que leurs plages horaires. Les événements peuvent être consultés par mois, par semaine ou par jour.
+
+### <img src="assets/icons/user-plus.svg" width="21" alt=""> Création d'un compte organisateur
+
+Un responsable de club, par exemple, qui ne possède pas encore de compte organisateur peut sélectionner l'option **Create Account**. Une demande est alors envoyée à l'administrateur.
+
+L'administrateur évalue cette demande et vérifie si l'utilisateur satisfait aux critères obligatoires pour devenir organisateur sur la plateforme ENSAK_EVENT.
+
+### <img src="assets/icons/log-out.svg" width="21" alt=""> Déconnexion
+
+L'organisateur peut se déconnecter de son espace. Il est ensuite redirigé vers la page de connexion afin de pouvoir se reconnecter ultérieurement.
+
+</details>
+
+---
+
+## <img src="assets/icons/wrench.svg" width="24" alt=""> Technologies et outils
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Technologie / outil</th>
+      <th>Utilisation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td align="center"><strong>GitHub</strong></td><td>Coordination de l'équipe, gestion des versions et structuration du travail.</td></tr>
+    <tr><td align="center"><strong>Flowbite</strong></td><td>Utilisation de modèles de composants existants : barres de navigation, boutons et cartes.</td></tr>
+    <tr><td align="center"><strong>HTML, CSS, Bootstrap et JavaScript</strong></td><td>Développement de l'interface utilisateur.</td></tr>
+    <tr><td align="center"><strong>PHP</strong></td><td>Développement de la partie back-end.</td></tr>
+    <tr><td align="center"><strong>DrawSQL</strong></td><td>Conception des schémas conceptuel et relationnel, des tables, attributs, clés et contraintes.</td></tr>
+    <tr><td align="center"><strong>phpMyAdmin</strong></td><td>Interface de gestion, de contrôle et d'adaptation de la base de données MySQL.</td></tr>
+    <tr><td align="center"><strong>000webhost</strong></td><td>Hébergement de l'application web et gestion de la base de données en ligne.</td></tr>
+  </tbody>
+</table>
+
+---
+
+## <img src="assets/icons/users.svg" width="24" alt=""> Équipe du projet
+
+Le projet est réalisé par une équipe en génie informatique, cohérente, compétente et techniquement engagée dans la conception et la résolution des différentes problématiques du projet.
+
+<table>
+  <tr>
+    <td align="center" width="25%"><strong>Abdelhamid<br>Hachimi Alloui</strong></td>
+    <td align="center" width="25%"><strong>Omar<br>Ignammas</strong></td>
+    <td align="center" width="25%"><strong>Yahya<br>Kaddouri</strong></td>
+    <td align="center" width="25%"><strong>Ilyas<br>Lirmaqui</strong></td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+  <h3>ENSAK_EVENT</h3>
+  <p><strong>Gérer • Organiser • Participer</strong></p>
+  <p>Réalisé avec passion par l'équipe ENSAK_EVENT.</p>
+</div>
