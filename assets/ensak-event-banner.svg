@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">ENSAK_EVENT</title>
+  <desc id="description">Bannière de la plateforme de gestion des événements de l'ENSA Kénitra</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <circle cx="1095" cy="45" r="190" fill="#38bdf8" opacity="0.09"/>
+  <circle cx="1050" cy="330" r="145" fill="#2dd4bf" opacity="0.12"/>
+  <circle cx="95" cy="320" r="180" fill="#ffffff" opacity="0.04"/>
+
+  <g transform="translate(86 82)" filter="url(#shadow)">
+    <rect width="174" height="174" rx="38" fill="#ffffff" opacity="0.96"/>
+    <rect x="37" y="48" width="100" height="91" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="7"/>
+    <path d="M58 34v30M116 34v30M39 78h96" fill="none" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/>
+    <path d="m62 108 17 17 35-40" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="310" y="142" fill="#ffffff" font-size="66" font-weight="800" letter-spacing="2">ENSAK_EVENT</text>
+    <rect x="312" y="166" width="520" height="7" rx="3.5" fill="url(#accent)"/>
+    <text x="312" y="220" fill="#dbeafe" font-size="27" font-weight="500">Plateforme de gestion des événements</text>
+    <text x="312" y="260" fill="#ccfbf1" font-size="23">ENSA Kénitra</text>
+  </g>
+
+  <g transform="translate(965 255)" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.8">
+    <circle cx="0" cy="0" r="12"/>
+    <circle cx="48" cy="0" r="12"/>
+    <circle cx="96" cy="0" r="12"/>
+    <path d="M12 0h24M60 0h24" stroke-linecap="round"/>
+  </g>
+</svg>
